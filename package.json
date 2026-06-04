@@ -1,0 +1,13 @@
+{
+  "name": "snyk-test-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application deliberately using vulnerable dependencies for testing Snyk.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.15.2",
+    "lodash": "4.17.15"
+  }
+}
